@@ -1,0 +1,510 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;  
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    max-height: 100%;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+object-fit: cover;
+}
+.logocontainer{
+    height: 10px;
+    width: 10px;
+
+    
+}
+.body-image-section{
+    position: absolute;
+    top: 0;
+   width: 100%;
+
+}
+header{
+    position: relative;
+
+}
+.container{
+  width: 80%;
+   margin:auto;  
+   
+  
+}
+li {
+    list-style: none;
+    
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logocontainer{
+    align-items: center;
+    display: flex;
+    height: 33px;
+    margin-top: 7px;
+    color: white;
+    width: 11px;
+}
+.get{
+    color: white;
+    height: 28px;
+   width: 100px;
+  
+   margin-top: 12px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 10px;
+     color: white;
+    text-decoration: none;
+    font-size: 19PX;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    vertical-align: middle;
+    padding: 0.8rem !important
+}
+
+
+
+.get{
+    padding: 2px;
+    color: white;
+    padding: 0px 18px 0px;
+    width: 143px;
+    height: 31px;
+    margin-inline: 2px;
+    margin-top: -27px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.body-image{
+    color:white;
+    font-size: 43px;
+}
+.zomato-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    margin-left: 30%;
+    margin-top: 28px;
+}
+.body-image{
+    margin-left: 200px;
+}
+.content{
+    text-align: center;
+    margin-right: 18%;
+    font-size: 35px;
+    margin-top: 45px;
+    font-family: Okra, Helvetica, sans-serif;
+    text-align: center;
+}
+.login-singup ul li{
+font-size: 19px;
+font-family: Okra, Helvetica, sans-serif;
+
+}
+.login-singup  li{
+    margin: 8px;
+    font-weight: 10;
+}
+.button{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-left: 330px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 22px;
+}
+
+* {
+    margin: 0;
+}
+#location{
+    width: 21px;
+    margin-left: 0px;
+    color: rgb(211, 106, 106);
+    
+}
+
+.button{
+    display: flex;
+    align-items: center;
+height: 65  px;
+background-color: white;
+}
+.input-type{
+border: none;
+width:200px ;
+height:60;
+}
+.ar-search{
+    width: 45px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+   
+}
+.input-type {
+ background-color: white;
+}
+#line{
+margin: 10x;
+width: 10px;
+}
+#search-1{
+    width: 75px;
+}
+.ar-search img{
+    color: gray;
+}
+.ar-search #line{
+    position: relative;
+    margin: 15px 9px;
+    color: gray;
+}
+#search{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: inherit;
+   padding: 3px;
+}
+#ar{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: inherit;
+padding:3px;
+}
+#search-option {
+    margin-left: 9px;
+    
+}
+
+.image-container-section-1{
+    display: flex;
+    justify-content: space-between;
+    border: 3px;
+    border-color: black;
+    margin:  0 91px;
+    margin-top: 37px;
+    overflow-y: hidden;
+}
+.feature-image{
+    height: 170px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 350px;
+}
+.features{
+    border:0.4px solid rgb(231, 228, 228) ;
+   
+}
+.features h3,
+.features p{
+    padding-left:20px;
+    font-size: 19px;
+    font-weight: 100;
+}
+.features:hover{
+    transition: 0.5s;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.collection{
+    margin-top: -50px;
+}
+.collection h2{ 
+    font-size: 40px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.collection p{
+    font-size: 20px;
+  
+}
+.features-1 {
+    margin: 45px 86px;
+    
+}
+.features-1-1{
+    color: gray;
+}
+.image-container-section-2{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 10px;
+    cursor: pointer;
+    
+}
+.feature-image-2{
+    position: relative;
+  
+}
+.feature-image-text p{
+    position: absolute;
+left: 0;
+right: 0;
+top: 213px;
+color: white;
+
+}
+.section-1{
+    height: 350px;
+    
+}
+.feature-image-2{
+    height: 310px;
+    border-radius: 10px;
+}
+.feature-image-text{
+    size: 20px;
+}
+#popular{
+    font-weight: 400;
+    font-size: 38px;
+  margin: 41px;
+}
+.location{
+    margin-bottom: 160px;
+    color: green;
+}
+.fa-caret-right{
+width: 15px;
+}
+.box-2 h3{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-2{
+    border: 0.1px solid rgb(172, 160, 160);
+    border-radius: 5px;
+    margin: 10px;
+    height: 80px;
+ 
+}
+.places{
+   font-weight: 250;
+   margin: 0px 10px;
+}
+.box-2  p{
+    font-weight: 250;
+    margin: 0px 10px;
+}
+.box-2:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+#kochi{
+    margin: 0 52px;
+}
+.section-3{
+    display: flex;
+    font-size: 21px;
+    margin: 23px 53px;
+    height: 294px;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+ overflow: hidden;
+}
+.get-1 h1{
+    font-family: Okra, Helvetica, sans-serif;
+    margin-left: 600px;
+    line-height: 5.6rem;
+    font-size: 45px;
+    font-weight: 500;
+}
+.phone-image-1{
+    margin-left: 300px;
+    display: flex;
+}
+.login-3{
+    height: 82px;
+    margin-left: 52px;
+}
+
+.download-2{
+    margin: 20px;
+}
+.store{
+    width: 100px;
+   
+}
+.phone-image-login-3{
+
+}
+.download-2{
+  margin-left: 320px;
+  margin: 0px;
+    height: 69px;
+    margin-top: 93px;
+    margin-inline: 303px;
+    position: absolute;
+
+}
+.container-explore{
+    width: 100%;
+    color:rgb(48, 47, 47);
+    height: 380px;
+ 
+}
+.popular-1{
+    display: inline-grid;
+    width: 90%;
+    margin: 0px 68px;
+    height: 300px;
+}
+.near-me{
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
+
+footer{
+    background: rgb(248, 248, 248);
+    margin-top: 70px;
+    wifth: 100%;
+}
+.india button{
+   margin-left: 53rem;
+   position: absolute;
+   width: 69px;
+   height: 32px ;
+}
+.india-1 button{
+    margin-left: 59rem;
+    size-adjust: 20px;
+    width: 69px;
+    height: 32px ;
+}
+.footer-head{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 67px;
+}
+.main-footer{
+    display: flex;
+    margin-left: 45px;
+}
+.main-footer h1 {
+   margin: 0px 0px 17px;
+font-size: 20px;
+width: 200px;
+font-weight: 200;
+}
+.near-me{
+    font-size: 22px;
+    text-align: -webkit-left;
+    padding: 0px 12px;
+}
+.container-explore h1{
+    margin-top: 68px;
+    margin-left: 79px;
+}
+.container-explore{
+    height: auto;
+}
+.main-footer p{
+    color: rgb(102, 98, 98);
+    margin: 6px;
+}
+#enterprises{
+    color: black;
+}
+#apps-for-you{
+    margin: 0px 7px 30px;
+}
+hr{
+    color: black;
+    height: 3px;
+    background-color: black;
+    margin: 20px;
+}
+#credit{
+    margin: 20px 22px 60px;
+}
+.downloade{
+    background: rgb(255, 251, 247);
+}
+#email-1{
+    height: 41px;
+    background: rgb(255, 255, 255);
+    border: 0.15rem solid rgb(224, 53, 70);
+    font-size: 22px;
+    width: 286px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+    transition:  0.1s ease ;
+    
+
+}
+#email-1:hover{
+    border-color: rgb(152, 191, 241);
+}    
+#share{
+    height: 41px;
+    background: rgb(192, 9, 9);
+    color: white;
+    border: 0.15rem solid rgb(224, 53, 70);
+    font-size: 22px;
+    width: 180px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+}
+.radio-button-1{
+    font-size:20px;
+}
+.social-media {
+    width: 70%;
+    margin: 7px;
+    display: flex;
+}
+.social-media img{
+    border-radius: 50%;
+padding: 0px 2px;
+}
+.download-footer{
+    width: 200px;
+   
+}
+.store{
+    margin-right: 20px;
+    margin-top: 10px;
+}
